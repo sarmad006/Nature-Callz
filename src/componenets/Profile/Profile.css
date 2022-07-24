@@ -1,0 +1,118 @@
+.navbar-home{
+    background-color: #e5fdff;
+}
+.flower-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toggle-offcanva{
+    max-width: 35px;
+}
+.d-flex {
+        width: 67%;
+}
+.mobile-search{
+    display: none;
+    padding-bottom: 10px;
+}
+.form-control  {
+    border: none;
+    background-color: #eee;
+   
+}
+.form-control:hover {
+    border: #eee;
+    background-color: #eee;
+}
+.form-control:focus {
+    box-shadow: none;
+  }
+
+.search {
+    text-align: center;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    /* flex-wrap: inherit; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.btn-outline-success {
+    /* --bs-btn-color: #198754; */
+    /* --bs-btn-border-color: #198754; */
+    /* --bs-btn-hover-color: #fff; */
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl:hover {
+ background-color: none;
+ border: none;
+}
+
+.my-btn {
+    background-color: #eee;
+    margin-left: -2%;
+}
+.my-btn:hover {
+    background-color: #eee;
+    border: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:hover{
+    box-shadow: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.hr-line {
+    width: 100%;
+}
+hr.class-1 {
+    border-top: 3px solid #14a05f;
+}
+.navbar-toggler-icon {
+    background-image: none;
+    display: inline-block;
+    width: 5.5em;
+    height: 2.5em;
+    vertical-align: middle;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .mobile-search{
+        display: block !important;
+    }
+    .d-flex {
+        width: 95% !important;
+      }
+  
+  }
+@media screen and (max-width: 1300px) {
+  .d-flex {
+    width: 50%;
+    font: 15px;
+  }
+
+}

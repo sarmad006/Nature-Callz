@@ -1,0 +1,31 @@
+.nav-hr{
+    border-bottom: 1px solid #ddd;
+}
+.top-nav{
+    padding-top: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.top-nav .menu{
+    color: black;
+    margin-right: 25px;
+    border: none;
+    padding: 10px 0;
+    font-weight: 500;
+    background-color: transparent;
+    position: relative;
+}
+.top-nav .menu img{
+    margin-right: 8px;
+    max-width: 18px;
+}
+.menu.active:after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #1c9954;
+    left: 0;
+}

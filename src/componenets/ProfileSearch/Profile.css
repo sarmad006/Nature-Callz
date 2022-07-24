@@ -1,0 +1,57 @@
+
+
+.navbar-toggler-icon{
+    width: auto !important;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar .navbar-form{
+        display: none !important;
+    }
+  
+  }
+  .error{
+    border: 1px solid red !important;
+  }
+  .flower{
+    position: relative;
+    margin-right: 10px;
+  }
+  .flower .number{
+    position: absolute;
+    right: -5px;
+    top: -20px;
+  }
+  .navbar-form{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .auto-suggest{
+    position: absolute;
+    width: 100%;
+    min-height: 100px;
+    background-color: ghostwhite;
+    top: 125%;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    left: 0;
+    padding: 0 20px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  .auto-suggest p{
+    margin-left: 20px;
+  }
+  .auto-suggest .item{
+    width: 100%;
+    margin: 12px 0;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .auto-suggest .item:last-child{
+    border-bottom: 1px solid rgba(0,0,0,0);
+  }
